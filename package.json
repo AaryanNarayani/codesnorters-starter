@@ -1,0 +1,35 @@
+{
+  "name": "create-codesnorters",
+  "version": "1.0.1",
+  "description": "A CLI tool to generate boilerplate templates for various projects.",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "create-codesnorters": "index.js"
+  },
+  "files": [
+    "index.js",
+    "express-auth-ts/",
+    "express-google-ts/",
+    "express-ts/",
+    "express-ts-bun/",
+    "react-shadcn-starter-ts/",
+    "react-solana-starter-ts/",
+    "react-starter-ts/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "boilerplate",
+    "starter",
+    "generator"
+  ],
+  "author": "Aaryan Narayani",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "fs-extra": "^11.3.0"
+  }
+}
