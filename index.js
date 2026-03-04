@@ -55,6 +55,7 @@
           { value: 'express-auth-ts', label: 'Express + Auth', hint: 'An Express.js server with TypeScript and JWT authentication.' },
           { value: 'express-google-ts', label: 'Express + Google Auth', hint: 'An Express.js server with TypeScript and Google OAuth.' },
           { value: 'express-ts-bun', label: 'Express + Bun', hint: 'An Express.js server with TypeScript, configured for Bun.' },
+          { value: 'prisma-ts-bun', label: 'Express + Prisma + Bun', hint: 'An Express.js server with TypeScript, Prisma, and Bun.' },
         ],
       });
     }
@@ -104,8 +105,8 @@
 Next steps:
 
   cd ${projectName}
-  npm install
-  npm run dev`);
+  npm/bun install
+  npm/bun run dev`);
   } catch (error) {
     console.error('Error:', error.message);
     process.exit(1);
